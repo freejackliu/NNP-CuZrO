@@ -1,7 +1,7 @@
 # NNP-CuZrO
 An implementation of neural network potentials (NNPs) capable of simulating the mechanical/physical behavior of oxidized CuZr (e.g., CuZr(O)) metallic glasses.
 ## How to use
-The NNP files for Cu-Zr-O tenary are available here. They can be loaded in Atomic Simulation Environment (ASE) (https://wiki.fysik.dtu.dk/ase/) linked with the aenet packages (https://github.com/atomisticnet/aenet/). 
+The NNP files for Cu-Zr-O tenary are available here. They can be loaded in Atomic Simulation Environment (ASE) (https://wiki.fysik.dtu.dk/ase/) linked with the aenet packages (https://github.com/atomisticnet/aenet/). Codes for the Python interface are as following:
 ```
 from ase.io import read
 from aenet.calculator import ANNCalculator
